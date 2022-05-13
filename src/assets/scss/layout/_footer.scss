@@ -1,11 +1,15 @@
 .footer {
-  padding: 55px 60px;
+  padding: 55px 0 60px;
   background-color: #1C1C1C;
   &__btn {
     display: block;
     padding: 12px 60px;
     margin-left: auto;
     margin-bottom: 34px;
+    @include r(480) {
+      margin-left: 0;
+      margin-top: 30px;
+    }
   }
   &__info {
     margin-bottom: 34px;
