@@ -3,7 +3,7 @@ layout: default
 title: Home Page
 ---
 
-<section class="hero">
+<section class="hero" id="hero">
   <div class="container">
     <div class="row">
       <div class="col-md-5 hero__left">
@@ -13,7 +13,7 @@ title: Home Page
               <img src="assets/img/svg/hero-icon-01.svg" alt="">
             </div>
             <div class="hero__description">
-              <a href="#" class="hero__caption">Как получить займ</a>
+              <a href="#how" class="hero__caption">Как получить займ</a>
               <p class="hero__subcaption">Первый займ до 15 дней бесплатно.</p>
               <p class="hero__subcaption">Моментальное одобрение заявки!</p>
             </div>
@@ -23,7 +23,7 @@ title: Home Page
               <img src="assets/img/svg/hero-icon-02.svg" alt="">
             </div>
             <div class="hero__description">
-              <a href="#" class="hero__caption">Наши приемущества</a>
+              <a href="#advantages" class="hero__caption">Наши приемущества</a>
               <p class="hero__subcaption">Нам есть чем гордиться!</p>
             </div>
           </li>
@@ -81,7 +81,7 @@ title: Home Page
   </div>
 </section>
 
-<section class="how">
+<section class="how" id="how">
   <div class="container">
     <div class="row">
       <div class="col-10 offset-md-1">
@@ -108,13 +108,13 @@ title: Home Page
         </ul>
       </div>
       <div class="col-10 offset-md-1">
-        <button class="btn-reset btn btn_trnsp">Отправить заявку</button>
+        <a href="#hero" class="btn-reset btn btn_trnsp how__btn">Отправить заявку</a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="advantages">
+<section class="advantages" id="advantages">
   <div class="container">
     <div class="row">
       <div class="col-md-7 offset-md-5">
@@ -123,9 +123,7 @@ title: Home Page
         <ul class="advantages__list">
           <li class="advantages__item flex">
             <div class="advantages__icon">
-              <svg>
-                <use>xlink:href="assets/img/sprite.svg#adv-icon-01"</use>
-              </svg>
+              <img src="assets/img/svg/adv-icon-01.png" alt="">
             </div>
             <div class="advantages__content">
               <h3 class="title__h3 advantages__caption">Безопасно и быстро</h3>
@@ -135,9 +133,7 @@ title: Home Page
           </li>
           <li class="advantages__item flex">
             <div class="advantages__icon">
-              <svg>
-                <use>xlink:href="assets/img/sprite.svg#adv-icon-02"</use>
-              </svg>
+              <img src="assets/img/svg/adv-icon-02.svg" alt="">
             </div>
             <div class="advantages__content">
               <h3 class="title__h3 advantages__caption">Полностью онлайн 24/7</h3>
@@ -147,9 +143,7 @@ title: Home Page
           </li>
           <li class="advantages__item flex">
             <div class="advantages__icon">
-              <svg>
-                <use>xlink:href="assets/img/sprite.svg#adv-icon-03"</use>
-              </svg>
+              <img src="assets/img/svg/adv-icon-03.svg" alt="">
             </div>
             <div class="advantages__content">
               <h3 class="title__h3 advantages__caption">Без комиссий и справок</h3>

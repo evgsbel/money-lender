@@ -18,7 +18,7 @@
       <div class="container h-100">
         <div class="row h-100 align-items-center">
           <div class="col-md-3">
-            <a href="" class="logo header__logo">
+            <a href="/" class="logo header__logo">
               <svg class="logo__icon">
                 <use xlink:href="assets/img/sprite.svg#logo-icon"></use>
               </svg>
@@ -26,7 +26,7 @@
             </a>
           </div>
           <div class="col-md-4 offset-md-5 flex header__left">
-            <a href="" class="header__link">Правовая информация</a>
+            <a href="#footer" class="header__link">Правовая информация</a>
             <button class="btn-reset btn btn_trnsp header__btn">войти</button>
           </div>
         </div>
@@ -34,7 +34,7 @@
     </header>
     <main role="main" class="main">
         
-        <section class="hero">
+        <section class="hero" id="hero">
           <div class="container">
             <div class="row">
               <div class="col-md-5 hero__left">
@@ -44,7 +44,7 @@
                       <img src="assets/img/svg/hero-icon-01.svg" alt="">
                     </div>
                     <div class="hero__description">
-                      <a href="#" class="hero__caption">Как получить займ</a>
+                      <a href="#how" class="hero__caption">Как получить займ</a>
                       <p class="hero__subcaption">Первый займ до 15 дней бесплатно.</p>
                       <p class="hero__subcaption">Моментальное одобрение заявки!</p>
                     </div>
@@ -54,7 +54,7 @@
                       <img src="assets/img/svg/hero-icon-02.svg" alt="">
                     </div>
                     <div class="hero__description">
-                      <a href="#" class="hero__caption">Наши приемущества</a>
+                      <a href="#advantages" class="hero__caption">Наши приемущества</a>
                       <p class="hero__subcaption">Нам есть чем гордиться!</p>
                     </div>
                   </li>
@@ -112,7 +112,7 @@
           </div>
         </section>
         
-        <section class="how">
+        <section class="how" id="how">
           <div class="container">
             <div class="row">
               <div class="col-10 offset-md-1">
@@ -139,13 +139,13 @@
                 </ul>
               </div>
               <div class="col-10 offset-md-1">
-                <button class="btn-reset btn btn_trnsp">Отправить заявку</button>
+                <a href="#hero" class="btn-reset btn btn_trnsp how__btn">Отправить заявку</a>
               </div>
             </div>
           </div>
         </section>
         
-        <section class="advantages">
+        <section class="advantages" id="advantages">
           <div class="container">
             <div class="row">
               <div class="col-md-7 offset-md-5">
@@ -154,9 +154,7 @@
                 <ul class="advantages__list">
                   <li class="advantages__item flex">
                     <div class="advantages__icon">
-                      <svg>
-                        <use>xlink:href="assets/img/sprite.svg#adv-icon-01"</use>
-                      </svg>
+                      <img src="assets/img/svg/adv-icon-01.png" alt="">
                     </div>
                     <div class="advantages__content">
                       <h3 class="title__h3 advantages__caption">Безопасно и быстро</h3>
@@ -166,9 +164,7 @@
                   </li>
                   <li class="advantages__item flex">
                     <div class="advantages__icon">
-                      <svg>
-                        <use>xlink:href="assets/img/sprite.svg#adv-icon-02"</use>
-                      </svg>
+                      <img src="assets/img/svg/adv-icon-02.svg" alt="">
                     </div>
                     <div class="advantages__content">
                       <h3 class="title__h3 advantages__caption">Полностью онлайн 24/7</h3>
@@ -178,9 +174,7 @@
                   </li>
                   <li class="advantages__item flex">
                     <div class="advantages__icon">
-                      <svg>
-                        <use>xlink:href="assets/img/sprite.svg#adv-icon-03"</use>
-                      </svg>
+                      <img src="assets/img/svg/adv-icon-03.svg" alt="">
                     </div>
                     <div class="advantages__content">
                       <h3 class="title__h3 advantages__caption">Без комиссий и справок</h3>
@@ -196,21 +190,21 @@
         
     </main>
     <div class="js-stop-header"></div>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
-            <a href="" class="logo footer__logo">
+          <div class="col-md-3 p-md-0">
+            <a href="/" class="logo header__logo">
               <svg class="logo__icon">
                 <use xlink:href="assets/img/sprite.svg#logo-icon"></use>
               </svg>
-              <p class="logo__text"><span>money lender</span></p>
+              <p class="logo__text">money<span>lender</span></p>
             </a>
           </div>
           <div class="col-md-2 offset-md-7">
-            <button class="btn-reset btn btn_trnsp footer__btn">войти</button>
+            <button class="btn-reset btn btn_yellow footer__btn">войти</button>
           </div>
-          <div class="col-12">
+          <div class="col-12 p-md-0">
             <div class="footer__info">
               <p>Возврат суммы Займа и процентов за пользование им Заемщик осуществляет путем перечисления денежных средств
                 на расчетный счет Общества, по реквизитам, указанным

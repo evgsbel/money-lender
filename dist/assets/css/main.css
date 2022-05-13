@@ -14720,6 +14720,13 @@ ul {
   color: #000;
 }
 
+/* line 63, src/assets/scss/base/_typography.scss */
+.title-h3 {
+  font-size: 28px;
+  line-height: 45px;
+  color: #000;
+}
+
 /**
  * Clear inner floats
  */
@@ -14803,13 +14810,49 @@ ul {
   border: 1px solid currentColor;
 }
 
+/* line 1, src/assets/scss/layout/_footer.scss */
+.footer {
+  padding: 55px 60px;
+  background-color: #1C1C1C;
+}
+
+/* line 4, src/assets/scss/layout/_footer.scss */
+.footer__btn {
+  display: block;
+  padding: 12px 60px;
+  margin-left: auto;
+  margin-bottom: 34px;
+}
+
+/* line 10, src/assets/scss/layout/_footer.scss */
+.footer__info {
+  margin-bottom: 34px;
+  padding-bottom: 48px;
+  line-height: 25px;
+  font-size: 15px;
+  color: #6B6B6B;
+  border-bottom: 1px solid #6B6B6B;
+}
+
+/* line 18, src/assets/scss/layout/_footer.scss */
+.footer__info p:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+/* line 23, src/assets/scss/layout/_footer.scss */
+.footer__copy {
+  color: #6B6B6B;
+  font-size: 15px;
+  text-align: justify;
+}
+
 /* line 1, src/assets/scss/components/_button.scss */
 .btn {
   font-weight: 500;
   line-height: 1;
   border-radius: 5px;
-  -webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out;
-  transition: color .3s ease-in-out, background-color .3s ease-in-out;
+  -webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out, border-color .3s ease-in-out;
+  transition: color .3s ease-in-out, background-color .3s ease-in-out, border-color .3s ease-in-out;
 }
 
 /* line 8, src/assets/scss/components/_button.scss */
@@ -15100,9 +15143,136 @@ ul {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 121, src/assets/scss/pages/_home.scss */
+/* line 118, src/assets/scss/pages/_home.scss */
+.how__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 33px;
+}
+
+/* line 123, src/assets/scss/pages/_home.scss */
 .how__item {
   text-align: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+}
+
+/* line 127, src/assets/scss/pages/_home.scss */
+.how__icon {
+  margin-bottom: 15px;
+}
+
+/* line 130, src/assets/scss/pages/_home.scss */
+.how__caption {
+  margin-bottom: 8px;
+}
+
+/* line 133, src/assets/scss/pages/_home.scss */
+.how__description {
+  font-size: 20px;
+  line-height: 30px;
+  color: #563900;
+}
+
+/* line 138, src/assets/scss/pages/_home.scss */
+.how__btn {
+  display: block;
+  margin: 0 auto;
+  padding: 18px 97px;
+  border: 1px solid #563900;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+/* line 144, src/assets/scss/pages/_home.scss */
+.how__btn:hover {
+  border-color: #fff;
+}
+
+/* line 150, src/assets/scss/pages/_home.scss */
+.advantages {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 152, src/assets/scss/pages/_home.scss */
+.advantages .container {
+  padding-top: 80px;
+  background-color: #1C1C1C;
+  background-image: url("../img/adv-bg.png");
+  background-repeat: no-repeat;
+  background-position: 44px 80px;
+  background-size: contain;
+}
+
+/* line 160, src/assets/scss/pages/_home.scss */
+.advantages__title {
+  color: #fff;
+}
+
+/* line 163, src/assets/scss/pages/_home.scss */
+.advantages__subtitle {
+  margin-bottom: 50px;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 45px;
+  color: #fff;
+}
+
+/* line 170, src/assets/scss/pages/_home.scss */
+.advantages__list {
+  margin-bottom: 130px;
+}
+
+/* line 173, src/assets/scss/pages/_home.scss */
+.advantages__item {
+  gap: 58px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+/* line 176, src/assets/scss/pages/_home.scss */
+.advantages__item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+/* line 180, src/assets/scss/pages/_home.scss */
+.advantages__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 63px;
+  height: 63px;
+  background-color: #FFA800;
+  border-radius: 10px;
+}
+
+/* line 190, src/assets/scss/pages/_home.scss */
+.advantages__caption {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* line 194, src/assets/scss/pages/_home.scss */
+.advantages__description {
+  font-size: 20px;
+  line-height: 30px;
+  color: #545454;
 }
 
 /*# sourceMappingURL=../../../scss */
