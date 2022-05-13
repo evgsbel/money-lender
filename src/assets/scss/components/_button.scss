@@ -1,0 +1,19 @@
+.btn {
+  font-weight: 500;
+  line-height: 1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  transition: color .3s ease-in-out, background-color .3s ease-in-out;
+  &:hover {
+    background-color: #FFA800;
+    color: #fff;
+  }
+  &_yellow {
+    background-color: #FFA800;
+    color: #584A00;
+  }
+  &_trnsp {
+    background-color: transparent;
+  }
+}
